@@ -55,6 +55,6 @@ console.table(studentValue);
 
 //array di oggetti "studente" che hanno un totale di voti superiore a 70 e id superiore a 120
 const studentIdValue = students.filter((person) => {
-    return person.grades > 70 && person.id >= 120;
+    return person.grades > 70 && person.id > 120;
 });
-console.table(studentValue);
+console.table(studentIdValue);
