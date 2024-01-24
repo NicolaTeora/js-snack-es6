@@ -1,1 +1,3 @@
-console.log('online-2')
+function bigString(){
+    
+}
