@@ -92,3 +92,25 @@ const teams = [
   },
 ];
 ```
+
+#### Snack 5: 
+dato un array di oggetti che rappresentano delle auto, chiedete all'utente con quante persone deve viaggiare e trovate la prima auto che soddisfa la richiesta:
+
+```
+let cars = [
+  {
+    color: "purple",
+    type: "minivan",
+    capacity: 7
+  },
+  {
+    color: "red",
+    type: "station wagon",
+    capacity: 5
+  },
+  {
+    ...
+  },
+  ...
+]
+```

@@ -30,12 +30,16 @@ let weightBike = [];
 
 console.table(bicycles);
 
-let [bike1, bike2, bike3, bike5, bike6] = bicycles;
-//console.log(bike1, bike2, bike3, bike5, bike6);
+let [bikeControl] = bicycles;
+console.log(bikeControl)
 
-for (let index = 0; index < bicycles.length; index++) {
-    let bike = bicycles[index].peso;
-    console.log(bike);
-    weightBike.push(bike);
-}
-console.log(weightBike)
+
+bicycles.forEach((bike) => {
+  const {name, peso} = bike
+  if (bikeControl.peso < peso){
+    
+    console.log()
+  } else {
+    
+  }
+});
